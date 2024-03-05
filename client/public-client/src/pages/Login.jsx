@@ -27,7 +27,6 @@ const Login = () => {
         data: input,
       })
       localStorage.setItem("access_token", data.access_token)
-      console.log(data);
       navigate("/")
     } catch (error) {
       console.log(error);
@@ -44,7 +43,6 @@ const Login = () => {
         }
       })
       localStorage.setItem("access_token", data.access_token)
-      console.log(data);
       navigate("/")
     } catch (error) {
       console.log(error);
